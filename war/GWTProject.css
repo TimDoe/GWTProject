@@ -1,0 +1,67 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.textBox {
+	position: relative;
+	display: block;
+	width: 10%;
+	height: 5%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	border-radius: 3px;
+	background-color: GhostWhite;
+	font-size: 20px;
+	margin: auto;
+	resize: none;
+	border-color: DarkSlateGray;
+}
+
+.textDisplay1 {
+	position: relative;
+	font-size: 20px;
+	width: 300px;
+	padding: 10px;
+}
+
+.textDisplay2 {
+	position: relative;
+	font-size: 20px;
+	width: 300px;
+	padding: 20px;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+

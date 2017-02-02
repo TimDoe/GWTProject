@@ -1,0 +1,2 @@
+serviceClass: de.pccl.GWTProject.webApp.client.GreetingService
+path: A086DF481B63B8E929AFEAEF34DD0208.gwt.rpc

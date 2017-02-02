@@ -1,0 +1,25 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<header>&nbsp;</header>
+
+		<main>
+
+			<section>
+				<div class="section_head">
+					Solution
+					<span class="required">*</span>
+				</div>
+				<g:TextBox ui:field="input" />
+				<g:Label visible="false" ui:field="inputFeedback">______</g:Label>
+			</section>
+
+		</main>
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 
