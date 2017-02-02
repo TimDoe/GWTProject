@@ -75,6 +75,7 @@ public class GWTProject implements EntryPoint {
 		sentenceLabel2.setText("a sentence.");
 
 	    //submission by pressing enter
+		//test comment
 	    inputTextBox.addKeyDownHandler(new KeyDownHandler() {
 	        public void onKeyDown(KeyDownEvent event) {
 	          if (event.getNativeKeyCode() == KeyCodes.KEY_ENTER) {
