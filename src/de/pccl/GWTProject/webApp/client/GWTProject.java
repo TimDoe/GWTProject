@@ -1,6 +1,9 @@
 package de.pccl.GWTProject.webApp.client;
 
 import de.pccl.GWTProject.webApp.shared.FieldVerifier;
+
+import java.util.ArrayList;
+
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -35,6 +38,7 @@ public class GWTProject implements EntryPoint {
 	  private TextBox inputTextBox = new TextBox();
 	  private Button submitInputButton = new Button("Submit");
 	  private TextArea textField = new TextArea();
+	  private inputUtility in = new inputUtility();
 	  
 
 	/**
@@ -57,7 +61,7 @@ public class GWTProject implements EntryPoint {
 	 */
 
 	public void onModuleLoad() {
-
+		in = new inputUtility();
 		mainPanel.add(submitPanel);
 		
 		inputTextBox.addStyleName(".textBox");

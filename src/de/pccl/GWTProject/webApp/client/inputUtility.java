@@ -40,6 +40,7 @@ public class inputUtility {
 
 	public inputUtility() {
 		super();
+		System.out.println("ping");
 		prop.setProperty("annotators", "tokenize, ssplit, pos, lemma, parse, sentiment");
 		tagger= new MaxentTagger("stanford-postagger-full-2016-10-31/models/german-fast.tagger",prop,false);
 		usedPOSTags.add("PIS");
@@ -77,7 +78,7 @@ public class inputUtility {
 	}
 
 	public workingSentence getSentence() throws IOException{
-		Collections.shuffle(usedPOSTags);
+		//Collections.shuffle(usedPOSTags);
 			sent = new workingSentence();
 			int randomNumber = (int) (Math.random()*(amountOfSentenes*0.9));
 			for (int i=randomNumber;i<amountOfSentenes;i++){
