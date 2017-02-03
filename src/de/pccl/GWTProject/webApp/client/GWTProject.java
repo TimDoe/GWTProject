@@ -62,6 +62,10 @@ public class GWTProject implements EntryPoint {
 
 	public void onModuleLoad() {
 		in = new inputUtility();
+		ArrayList<String> d = new ArrayList<>();
+		d.add("PIS");
+		inputUtility iu = new inputUtility(d,11);
+		System.out.println(iu.generateSentences().size());
 		mainPanel.add(submitPanel);
 		
 		inputTextBox.addStyleName(".textBox");
