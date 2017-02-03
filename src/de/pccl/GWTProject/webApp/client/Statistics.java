@@ -5,7 +5,7 @@ import java.lang.Object;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang.time.StopWatch;
+//import org.apache.commons.lang.time.StopWatch;
 public class Statistics {
 	static List<String> correct = new ArrayList<String>(); //
 	static List<String> incorrect = new ArrayList<String>();
@@ -16,7 +16,7 @@ public class Statistics {
 	{
 		
 		String correctWord = workingSentence.getTargetWord();//correct word from the sentence
-				String inputWord = GWTProject.inputWord;//Word from user input	
+				String inputWord = GWTProject.submitInput();//Word from user input	
 				if (correctWord.equals(inputWord))
 					correct.add(correctWord);
 					return true;
