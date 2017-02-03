@@ -31,6 +31,7 @@ h1 {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: Azure !important;
 }
 
 .textBox {
@@ -51,14 +52,14 @@ body {
 
 .textDisplay1 {
 	position: relative;
-	font-size: 20px;
+	font-size: 20px !important;
 	width: 300px;
 	padding: 10px;
 }
 
 .textDisplay2 {
 	position: relative;
-	font-size: 20px;
+	font-size: 20px !important;
 	width: 300px;
 	padding: 20px;
 }
